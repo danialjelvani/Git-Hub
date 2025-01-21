@@ -14,3 +14,15 @@ dir /s /b /o:gn
 /B Uses bare format (no heading information or summary).
 /O List by files in sorted order.
 Then in :gn, g sorts by folders and then files, and n puts those files in alphabetical order.
+
+#contributing to a project:
+in each git profile look for "how to contribute" in readme.md file to find out the pathway
+its usually mentioned in the contributing.md file
+when commenting this is the order of issues from blocking and needing immediate action
+to nonblocking take it or leave it:
+[mountain] : blocking and needing immediate action
+[boulder] : blocking
+[pebble] : non-blocking but requires future action
+[sand] : non-blocking but requires future consideration
+[dust] : non-blocking take it or leave it
+
