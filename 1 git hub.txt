@@ -1,0 +1,9 @@
+#connecting to github with ssh:
+shh keygen tu google va code zir
+ssh-keygen -t ed25519 -C "youremail" : in ro tu terminal miznim
+then enter a location
+bedune password enter miknim
+badesh filero peida miknim ba pasvand .pub bazesh mikonim
+bad tu github account setting ssh and gpg keys new ssh key va add mikonim un ssh key ro k per os e
+use "cat" command to view file in linux terminal and "type" command in windows terminal
+va badesh git clone ssh
