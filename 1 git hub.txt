@@ -7,3 +7,10 @@ badesh filero peida miknim ba pasvand .pub bazesh mikonim
 bad tu github account setting ssh and gpg keys new ssh key va add mikonim un ssh key ro k per os e
 use "cat" command to view file in linux terminal and "type" command in windows terminal
 va badesh git clone ssh
+
+#listing in cmd:
+dir /s /b /o:gn
+/S Displays files in specified directory and all subdirectories.
+/B Uses bare format (no heading information or summary).
+/O List by files in sorted order.
+Then in :gn, g sorts by folders and then files, and n puts those files in alphabetical order.
