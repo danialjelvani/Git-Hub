@@ -26,3 +26,14 @@ to nonblocking take it or leave it:
 [sand] : non-blocking but requires future consideration
 [dust] : non-blocking take it or leave it
 
+#pull request reviews:
+to have the contributor working branch in my local branches we can use the code bellow to fetch the branch:
+git fetch origin pull/"pull number visible in git pr page url"/head :"contributor branch name in github pr"
+for example: git fetch pull/3/head:fix_readme
+then: git checkout fix_readme
+then: git merge or git rebase
+then: solving the conflicts in vscode
+then: git status
+then: git add
+then: git commit
+then: git push origin fix_readme
